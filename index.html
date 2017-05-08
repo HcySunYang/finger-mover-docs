@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <title>finger-mover</title>
+    <link rel="stylesheet" href="./asset/docute.css">
+    <style>
+        .emp {
+            color: #3c763d;
+        }
+        .markdown-body h6 {
+            font-size: .85em;
+            color: #ff9917;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        
+    </div>
+
+    <script src="./asset/docute.js"></script>
+    <script>
+        docute.init({
+            landing: 'landing.html',
+            nav: {
+                default: [
+                    {title: 'Home', path: '/home'},
+                    {title: 'plugins', type: 'dropdown', items: [
+                        {title: 'Vertical scroll simulation', path: '/plugins/simulation-scroll-y'},
+                        {title: 'Horizontal scroll simulation', path: '/plugins/simulation-scroll-x'},
+                        {title: '2D scrolling', path: '/plugins/2d-scroll'},
+                        {title: 'Horizontal slide show', path: '/plugins/fmover-slide-x'},
+                        {title: 'Vertical slide show', path: '/plugins/fmover-slide-y'}
+                    ]},
+                    {title: 'Fingerd', path: '/package/fingerd'},
+                    {title: 'Moved', path: '/package/moved'},
+                    {title: 'Creating plugins', path: '/creating-plugins'},
+                    {title: 'Full demo', path: '/full-demo'},
+                    {title: 'Multi-language', type: 'dropdown', items: [
+                        {title: 'English', path: '/home', matchPath: /^\/(home|full-demo|creating-plugins)/},
+                        {title: '中文', path: '/zh-cn/', matchPath: /^\/zh-cn/}
+                    ]}
+                ],
+                'zh-cn': [
+                    {title: 'Home', path: '/zh-cn/'},
+                    {title: '插件列表', type: 'dropdown', items: [
+                        {title: '纵向模拟滚动', path: '/zh-cn/plugins/simulation-scroll-y'},
+                        {title: '横向模拟滚动', path: '/zh-cn/plugins/simulation-scroll-x'},
+                        {title: '2d滚动', path: '/zh-cn/plugins/2d-scroll'},
+                        {title: '水平轮播', path: '/zh-cn/plugins/fmover-slide-x'},
+                        {title: '垂直轮播', path: '/zh-cn/plugins/fmover-slide-y'}
+                    ]},
+                    {title: 'Fingerd', path: '/zh-cn/package/fingerd'},
+                    {title: 'Moved', path: '/zh-cn/package/moved'},
+                    {title: '插件开发', path: '/zh-cn/creating-plugins'},
+                    {title: '全部demo', path: '/zh-cn/full-demo'},
+                    {title: '多语言', type: 'dropdown', items: [
+                        {title: 'English', path: '/home', matchPath: /^\/(home|full-demo|creating-plugins)/},
+                        {title: '中文', path: '/zh-cn/', matchPath: /^\/zh-cn/}
+                    ]}
+                ]
+            },
+            icons: [{
+                icon: 'link',
+                label: 'my blog',
+                link: 'http://hcysun.me'
+            },{
+                icon: 'github',
+                label: 'Star me on GitHub',
+                link: 'https://github.com/owner/repo'
+            }],
+            tocVisibleDepth: 6
+        })
+        
+    </script>
+</body>
+</html>
