@@ -37,7 +37,9 @@ npm install --save simulation-scroll-y
 
 The above code will implement a simple vertical simulation scrolling.
 
-* [Substantially vertical scrolling simulation live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/simulation-y-demo.html" target="_blank">Substantially vertical scrolling simulation live demo</a>
+
+<img src="../asset/qrcode/simulation-y-demo.png" width="200"/>
 
 #### Features
 
@@ -249,7 +251,9 @@ Some library defined the type of pull down refresh: waiting or not after pull do
     })
     ```
 
-    * [Pull-down refresh live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/pull-down-demo.html" target="_blank">Pull-down refresh live demo</a>
+
+    <img src="../asset/qrcode/pull-down-demo.png" width="200"/>
 
 ###### loadMore
 
@@ -448,7 +452,9 @@ Some library defined the type of pull down refresh: waiting or not after pull do
     fm[0].scrpllTo('.wrap', 1000)
     ```
 
-    * [Scroll to the target point live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/scroll-to-y.html" target="_blank">Scroll to the target point live demo</a>
+
+    <img src="../asset/qrcode/scroll-to-y.png" width="200"/>
 
 ###### loadEnd()
 

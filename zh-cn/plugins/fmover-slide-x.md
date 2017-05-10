@@ -9,6 +9,10 @@ search: zh-cn
 
 `finger-mover` 水平轮播插件：移动端轻量的、基本的水平轮播实现
 
+* <a href="https://fmover.hcysun.me/example/demo/fmover-slide-x.html" target="_blank">水平轮播 live demo</a>
+
+<img src="../asset/qrcode/fmover-slide-x.png" width="200"/>
+
 #### 体积
 
 * 压缩后体积：4.27KB

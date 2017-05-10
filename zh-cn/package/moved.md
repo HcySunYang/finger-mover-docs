@@ -44,7 +44,9 @@ moved.start({
 })
 ```
 
-* 基本运动 [live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/mover-easy-demo.html" target="_blank">基本运动 live demo</a>
+
+<img src="../asset/qrcode/mover-easy-demo.png" width="200"/>
 
 ## 接口明细
 
@@ -114,7 +116,9 @@ moved.start({
     * `{String} attr` 元素的 transform 属性，如：`translateX`、`translateY`... 等等
     * `{Number} val` 属性值
 
-[start()、stop()、transform() live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/mover-demo.html" target="_blank">start()、stop()、transform() live demo</a>
+
+<img src="../asset/qrcode/mover-demo.png" width="200"/>
 
 ## 扩展运动类型
 

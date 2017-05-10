@@ -43,7 +43,9 @@ npm install --save simulation-scroll-y
 
 以上代码将实现2d滚动
 
-* [2d滚动 live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/2d-scroll-demo.html" target="_blank">2d 滚动 live demo</a>
+
+<img src="../asset/qrcode/2d-scroll-demo.png" width="200"/>
 
 
 

@@ -163,7 +163,9 @@ When a finger leaves the scope (the finger draws the range or lifts), by *Finger
 
     Another difference between `fingerNumber` and native event `touches.length`: `fingerNumber` is the number of fingers in the real scope.
 
-    * [Different between fingerNumber and touches.length live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/fingerd-number.html" target="_blank">Different between fingerNumber and touches.length live demo</a>
+
+    <img src="../asset/qrcode/fingerd-number.png" width="200"/>
 
 #### Instance Method
 
@@ -229,7 +231,9 @@ box.addEventListener('touchend', function (event) {
 }, false)
 ```
 
-* [live demo ---- Scaling]()
+* <a href="https://fmover.hcysun.me/example/demo/fingerd-scale-demo.html" target="_blank">Scaling live demo</a>
+
+<img src="../asset/qrcode/fingerd-scale-demo.png" width="200"/>
 
 #### The data status of each finger (Tevent)
 

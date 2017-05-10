@@ -11,6 +11,10 @@ search: zh-cn
 
 <p class="tip">垂直轮播拥有和水平轮播完全一致的接口，唯一不同的就是与水平轮播的轮播方向不同。</p>
 
+* <a href="https://fmover.hcysun.me/example/demo/fmover-slide-y.html" target="_blank">垂直轮播 live demo</a>
+
+<img src="../asset/qrcode/fmover-slide-y.png" width="200"/>
+
 #### 体积
 
 * 压缩后体积：4.27KB

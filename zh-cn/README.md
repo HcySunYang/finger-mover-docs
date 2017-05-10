@@ -47,10 +47,11 @@ let fm = new Fmover({
         simulationScrollY()
     ]
 })
-
 ```
 
-* [2d 滚动 live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/2d-scroll-demo.html" target="_blank">2d 滚动 live demo</a>
+
+<img src="../asset/qrcode/2d-scroll-demo.png" width="200"/>
 
 #### 访问插件对象
 

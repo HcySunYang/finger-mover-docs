@@ -6,6 +6,10 @@
 
 <p class="tip">Vertical and horizontal slideshow have exactly the same interface, just rotate side difference between theme.</p>
 
+* <a href="https://fmover.hcysun.me/example/demo/fmover-slide-y.html" target="_blank">vertical slideshow live demo</a>
+
+<img src="../asset/qrcode/fmover-slide-y.png" width="200"/>
+
 #### File Size
 
 * Just 4.27KB after compression

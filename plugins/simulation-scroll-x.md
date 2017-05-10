@@ -37,7 +37,9 @@ npm install --save simulation-scroll-x
 
 The above code will implement a simple horizontal simulation scrolling.
 
-* [Substantially horizontal scrolling simulation live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/simulation-x-demo.html" target="_blank">Substantially horizontal scrolling simulation live demo</a>
+
+<img src="../asset/qrcode/simulation-x-demo.png" width="200"/>
 
 #### Features
 
@@ -190,7 +192,9 @@ The above code will implement a simple horizontal simulation scrolling.
     fm[0].scrpllTo('.wrap', 1000)
     ```
 
-    * [Scroll to the target point live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/scroll-to-x.html" target="_blank">Scroll to the target point live demo</a>
+
+    <img src="../asset/qrcode/scroll-to-x.png" width="200"/>
 
 ###### refreshSize()
 

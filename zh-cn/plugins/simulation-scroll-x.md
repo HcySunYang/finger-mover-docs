@@ -42,7 +42,9 @@ npm install --save simulation-scroll-x
 
 以上代码将实现基本的横向模拟滚动
 
-* [基本的横向模拟滚动 live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/simulation-x-demo.html" target="_blank">基本的横向模拟滚动 live demo</a>
+
+<img src="../asset/qrcode/simulation-x-demo.png" width="200"/>
 
 #### 特性
 
@@ -195,7 +197,9 @@ npm install --save simulation-scroll-x
     fm[0].scrpllTo('.wrap', 1000)
     ```
 
-    * [滚动至目标点 live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/scroll-to-x.html" target="_blank">滚动至目标点 live demo</a>
+
+    <img src="../asset/qrcode/scroll-to-x.png" width="200"/>
 
 ###### refreshSize()
 

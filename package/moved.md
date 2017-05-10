@@ -39,7 +39,9 @@ moved.start({
 })
 ```
 
-* Basic Movement [live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/mover-easy-demo.html" target="_blank">Basic Movement live demo</a>
+
+<img src="../asset/qrcode/mover-easy-demo.png" width="200"/>
 
 ## Interface
 
@@ -109,7 +111,9 @@ moved.start({
     * `{String} attr` The transform CSS property of the element. Such as: `translateX`, `translateY` and etc.,
     * `{Number} val` Property value
 
-[start(), stop(), transform() live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/mover-demo.html" target="_blank">start()、stop()、transform() live demo</a>
+
+<img src="../asset/qrcode/mover-demo.png" width="200"/>
 
 ## Extended Movement Type
 

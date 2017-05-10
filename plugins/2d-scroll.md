@@ -38,7 +38,9 @@ npm install --save simulation-scroll-y
 
 The above code will implement 2D scrolling.
 
-* [2D Scroll live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/2d-scroll-demo.html" target="_blank">2D Scroll live demo</a>
+
+<img src="../asset/qrcode/2d-scroll-demo.png" width="200"/>
 
 
 

@@ -167,7 +167,9 @@ el.addEventListener('touchcancel', function (event) {
 
     另外 `fingerNumber` 相对于原生 `event` 事件对象的 `touches.length` 的另外一个不同之处是：`fingerNumber` 是真正的作用范围内的手指数量，查看这个demo即可：
 
-    * [fingerNumber 与 touches.length 的区别 live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/fingerd-number.html" target="_blank">fingerNumber 与 touches.length 的区别 live demo</a>
+
+    <img src="../asset/qrcode/fingerd-number.png" width="200"/>
 
 #### 实例方法
 
@@ -233,7 +235,9 @@ box.addEventListener('touchend', function (event) {
 }, false)
 ```
 
-* [live demo ---- 缩放]()
+* <a href="https://fmover.hcysun.me/example/demo/fingerd-scale-demo.html" target="_blank">缩放 live demo</a>
+
+<img src="../asset/qrcode/fingerd-scale-demo.png" width="200"/>
     
 #### 每个手指的数据状态(Tevent)
 

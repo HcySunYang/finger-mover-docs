@@ -42,7 +42,9 @@ npm install --save simulation-scroll-y
 
 以上代码将实现基本的纵向模拟滚动
 
-* [基本的纵向模拟滚动 live demo]()
+* <a href="https://fmover.hcysun.me/example/demo/simulation-y-demo.html" target="_blank">基本的纵向模拟滚动 live demo</a>
+
+<img src="../asset/qrcode/simulation-y-demo.png" width="200"/>
 
 #### 特性
 
@@ -252,7 +254,9 @@ simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4kb，即使
     })
     ```
 
-    * [下拉刷新 live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/pull-down-demo.html" target="_blank">下拉刷新 live demo</a>
+
+    <img src="../asset/qrcode/pull-down-demo.png" width="200"/>
 
 ###### loadMore
 
@@ -451,7 +455,9 @@ simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4kb，即使
     fm[0].scrpllTo('.wrap', 1000)
     ```
 
-    * [滚动至目标点 live demo]()
+    * <a href="https://fmover.hcysun.me/example/demo/scroll-to-y.html" target="_blank">滚动至目标点 live demo</a>
+
+    <img src="../asset/qrcode/scroll-to-y.png" width="200"/>
 
 ###### loadEnd()
 
@@ -484,7 +490,7 @@ simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4kb，即使
 
 #### demo 汇总
 
-基于 `simulation-scroll-y` 插件可以实现很多效果及功能，查看：[Full demo]()
+基于 `simulation-scroll-y` 插件可以实现很多效果及功能，查看：[Full demo](/zh-cn/full-demo)
 
 
 

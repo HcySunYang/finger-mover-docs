@@ -4,6 +4,10 @@
 
 `finger-mover` horizontal slideshow plugin: lightweight and simple rotate animate solution on mobile device.
 
+* <a href="https://fmover.hcysun.me/example/demo/fmover-slide-x.html" target="_blank">horizontal slideshow live demo</a>
+
+<img src="../asset/qrcode/fmover-slide-x.png" width="200"/>
+
 #### File Size
 
 * Just 4.27KB after compression
