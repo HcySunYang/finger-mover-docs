@@ -9,7 +9,7 @@ and
 
 #### Features
 
-* Just 9.75KB after compression
+* Just 11.12KB after compression
 
 * Plugin support, motion components are available as plug-ins and you can also develop your own plugin, reference [Plugin Development Guide](/creating-plugins)
 

@@ -5,7 +5,7 @@ search: zh-cn
 
 ## 插件开发
 
-编写插件前，你需要了解一下 [Fingerd(移动端以手指为单位的事件管理方案)](/package/fingerd) 和 [Moved(微型运动方案)](/package/moved)
+编写插件前，你需要了解一下 [Fingerd(移动端以手指为单位的事件管理方案)](/zh-cn/package/fingerd) 和 [Moved(微型运动方案)](/zh-cn/package/moved)
 
 #### 插件结构
 
@@ -92,13 +92,13 @@ let {
 
 * 描述：
 
-    `Moved` 构造函数，请查看 [Moved](/package/moved)
+    `Moved` 构造函数，请查看 [Moved](/zh-cn/package/moved)
 
 ###### Fingerd
 
 * 描述：
 
-    `Fingerd` 构造函数，请查看 [Fingerd](/package/fingerd)
+    `Fingerd` 构造函数，请查看 [Fingerd](/zh-cn/package/fingerd)
 
 ###### cssText(el, cssText)
 

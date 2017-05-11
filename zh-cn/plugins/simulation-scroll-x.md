@@ -50,11 +50,11 @@ npm install --save simulation-scroll-x
 
 * 压缩后只有 3.11kb
 
-* 多手指触摸滚动元素时，并不会阻止滚动，且手指间的滚动衔接流畅，该功能的实现得益于[Fingerd](/package/fingerd)
+* 多手指触摸滚动元素时，并不会阻止滚动，且手指间的滚动衔接流畅，该功能的实现得益于[Fingerd](/zh-cn/package/fingerd)
 
 * 当手指划出屏幕时不会影响运行。在很多手机浏览器中，当手指划出屏幕时，现有开源解决方案中的运动会卡住
 
-* 可以配合 [simulation-scroll-y.js](/plugins/simulation-scroll-y) 实现 2d 滚动
+* 可以配合 [simulation-scroll-y.js](/zh-cn/plugins/simulation-scroll-y) 实现 2d 滚动
 
 * 支持滚动条
 

@@ -65,7 +65,7 @@ There are many scroll simulation lib on mobile device, such as: iscroll, xscroll
 
 The file size is very large in a mostly scroll simulation library, simulation-scroll-y is the smallest one.
 
-simulation-scroll-y as a plug-in for finger-mover, the file size just 4KB and the total size of finger-mover (10KB) and simulation-scroll-y are just 14KB. In addition, finger-mover also provides other plugins for you.
+simulation-scroll-y as a plug-in for finger-mover, the file size just 4.42KB and the total size of finger-mover (11.12KB) and simulation-scroll-y are just 15.54KB. In addition, finger-mover also provides other plugins for you.
 
 If you want to simulate scroll and load more, to use simulation-scroll-y instead of iscroll will be save file loading size for you. If you want to implement slide show effect, try to use finger-mover plugin instead of swiper.
 

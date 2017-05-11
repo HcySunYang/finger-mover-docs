@@ -4,7 +4,7 @@
 
 ## Feature
 
-* Small size, just 2.55KB after compression
+* Small size, just 3.17KB after compression
 
 * Only include transform attribute of the movement in the CSS3
 

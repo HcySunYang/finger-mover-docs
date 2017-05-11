@@ -50,7 +50,7 @@ npm install --save simulation-scroll-y
 
 * 压缩后只有 4kb
 
-* 多手指触摸滚动元素时，并不会阻止滚动，且手指间的滚动衔接流畅，该功能的实现得益于[Fingerd](/package/fingerd)
+* 多手指触摸滚动元素时，并不会阻止滚动，且手指间的滚动衔接流畅，该功能的实现得益于[Fingerd](/zh-cn/package/fingerd)
 
 * 当手指划出屏幕时不会影响运行。在很多手机浏览器中，当手指划出屏幕时，现有开源解决方案中的运动会卡住
 
@@ -58,7 +58,7 @@ npm install --save simulation-scroll-y
 
 * 支持无限滚动(加载更多)
 
-* 可以配合 [simulation-scroll-x.js](/plugins/simulation-scroll-x) 实现 2d 滚动
+* 可以配合 [simulation-scroll-x.js](/zh-cn/plugins/simulation-scroll-x) 实现 2d 滚动
 
 * 支持滚动条
 
@@ -70,7 +70,7 @@ npm install --save simulation-scroll-y
 
 库体积很大一部分是由框架所提供的功能决定的，但是在完成相同功能的前提下，simulation-scroll-y 应该算是最小的。
 
-simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4kb，即使加上 finger-mover 本身的 10kb 也才只有 14kb，关键是 finger-mover 还提供了其他移动的插件，供你选择。
+simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4.42kb，即使加上 finger-mover 本身的 11.12kb 也才只有 15.54kb，关键是 finger-mover 还提供了其他移动的插件，供你选择。
 
 如果你仅仅要实现一个模拟滚动已经下拉刷新、无限滚动的功能，那么使用 simulation-scroll-y 要比你一次性的引入其他框架如 iscroll 等要小的多。如果你要实现轮播图，完全可以使用 finger-mover 的轮播图插件，这比你使用 swiper 要划算的多。
 
@@ -98,7 +98,7 @@ simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4kb，即使
 
 ![多指操作奇葩bug](../asset/othergif/qipa-bug.gif)
 
-以上问题，在 `simulation-scroll-y` 则不会出现，无论有几根手指触摸屏幕，`simulation-scroll-y` 都将控制权交给第一根手指，如果第一个手指拿开，那么第二根手指将继承第一根手指的状态，完美衔接滚动，此功能的实现得益于 [Fingerd](/package/fingerd)，如下图：
+以上问题，在 `simulation-scroll-y` 则不会出现，无论有几根手指触摸屏幕，`simulation-scroll-y` 都将控制权交给第一根手指，如果第一个手指拿开，那么第二根手指将继承第一根手指的状态，完美衔接滚动，此功能的实现得益于 [Fingerd](/zh-cn/package/fingerd)，如下图：
 
 ![运动不会卡住](../asset/fm/more-finger-no-stop.gif)
 

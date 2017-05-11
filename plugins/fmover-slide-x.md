@@ -10,7 +10,7 @@
 
 #### File Size
 
-* Just 4.27KB after compression
+* Just 4.48KB after compression
 
 #### Installation
 

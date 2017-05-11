@@ -9,7 +9,7 @@ search: zh-cn
 
 ## 特性
 
-* 体积小，压缩后 2.55kb
+* 体积小，压缩后 3.17kb
 
 * 只做 css3 中 transform 属性的运动
 
