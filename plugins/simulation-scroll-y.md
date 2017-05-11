@@ -75,7 +75,7 @@ This problem arises in the UC browser and Tencent™ QQ embed browser.
 
 Screenshot:
 
-![Movement stuck](../asset/othergif/out-stop.gif)
+![Movement stuck](../asset/othergif/out-stop-us.gif)
 
 By using `simulation-scroll-y` to solve this problem:
 
@@ -85,7 +85,7 @@ By using `simulation-scroll-y` to solve this problem:
 
 Scrolling element movement will be stopped when multi-finger touch the screen in a mostly open-source libraries, like this:
 
-![Movement stuck](../asset/othergif/more-finger-stop.gif)
+![Movement stuck](../asset/othergif/more-finger-stop-us.gif)
 
 Or other problems, like this:
 
@@ -103,7 +103,7 @@ Screenshot:
 
 Pull down refresh will be working normally when repeat pull down and pull up action quickly in some other libraries, like this:
 
-![Multi-finger operation bug](../asset/othergif/pulldown-bug.gif)
+![Multi-finger operation bug](../asset/othergif/pulldown-bug-us.gif)
 
 Some library defined the type of pull down refresh: waiting or not after pull down.
 
