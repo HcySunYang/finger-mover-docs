@@ -1,4 +1,4 @@
-## fmover-slide-x.js
+## fmover-slide-y.js
 
 #### Overview
 
