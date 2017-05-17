@@ -50,6 +50,8 @@ new Fmover({
 
     `touchmove` 事件触发时同步调用的函数，`fingerd` 实例对象将作为参数传递。
 
+    注意：在 `move` 回调函数中 `return false` 可以阻止事件冒泡
+
 ###### end(fingerd)
 
 * 描述：

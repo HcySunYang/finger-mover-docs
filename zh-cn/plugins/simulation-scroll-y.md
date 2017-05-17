@@ -124,6 +124,20 @@ simulation-scroll-y 作为 finger-mover 的插件，其体积只有 4.42kb，即
 
     是否显示滚动条
 
+###### unidirectional
+
+* 类型：`Boolean`
+
+* 默认值：`false`
+
+* 详细：
+
+    是否单向滑动，单向滑动顾名思义，指的是单方向的滑动，即：如果左右滑动了，那么就不允许上下滑动，如果上下滑动了，就不允许左右滑动。该选项用来配合 `fmover-slide-x` 插件编写选项卡组件时非常有用。请查看Demo：
+
+    * <a href="https://fmover.hcysun.me/example/demo/slide-with-scroll.html" target="_blank">选项卡组件</a>
+
+    * <img src="../asset/qrcode/fingerd-scale-demo.png" width="200"/>
+
 ###### bounce
 
 * 类型：`Boolean`

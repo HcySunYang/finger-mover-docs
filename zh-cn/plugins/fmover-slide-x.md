@@ -200,7 +200,7 @@ var fm = new Fmover({
 
 * 详细：
 
-    `touchmove` 事件触发时同步调用，并将当前位置横坐标作为参数传递给回调函数
+    `touchmove` 事件触发时同步调用，将传递三个有用的参数至该回调函数。
 
 * 示例：
 
@@ -209,8 +209,13 @@ var fm = new Fmover({
     el: '.slide-wrap',
     plugins: [
         fmoverSlideX({
-            onTouchMove: function (currentX) {
+            onTouchMove: function (currentX, slideWidth, slideNumber) {
+                // 当前位置横坐标
                 console.log(currentX)
+                // 单个轮播块的宽度
+                console.log(slideWidth)
+                // 轮播块的数量
+                console.log(slideNumber)
             }
         })
     ]
@@ -269,7 +274,7 @@ var fm = new Fmover({
 
 * 详细：
 
-    惯性滚动时持续触发，并将当前位置横坐标作为参数传递给回调函数。
+    惯性滚动时持续触发，将传递三个有用的参数至该回调函数。
 
 * 示例：
 
@@ -278,8 +283,13 @@ var fm = new Fmover({
     el: '.slide-wrap',
     plugins: [
         fmoverSlideX({
-            onTransMove: function (currentX) {
+            onTransMove: function (currentX, slideWidth, slideNumber) {
+                // 当前位置横坐标
                 console.log(currentX)
+                // 单个轮播块的宽度
+                console.log(slideWidth)
+                // 轮播块的数量
+                console.log(slideNumber)
             }
         })
     ]
