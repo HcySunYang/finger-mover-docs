@@ -1,21 +1,30 @@
-<div class="fork">
-    <a href="https://github.com/HcySunYang/finger-mover">Fork me on GitHub</a>
-</div>
+<div class="our-main">
+    <div class="fork">
+        <a href="https://github.com/HcySunYang/finger-mover">Fork me on GitHub</a>
+    </div>
 
-<img class="logo" src="./asset/logo.png">
-<h1 class="title">finger-mover</h1>
+    <img class="logo" src="./asset/big.png">
+    <!--<h1 class="title">finger-mover</h1>-->
 
-<p class="intr">finger-mover is a sports effect library that integrates
-<a href="/#/package/fingerd">Fingerd(a development kit for finger unit event management in mobile development)</a> and
-<a href="/#/package/moved">Moved(a micro movement framework)</a>
-</p>
+    <div class="intr">
+        <p>finger-mover is a motion effect library that integrates</p>
+        <p><a href="/#/package/fingerd">Fingerd</a>(a development kit for finger unit event management in mobile development)</p>
+        <p>and</p>
+        <p><a href="/#/package/moved">Moved</a>(a micro movement framework)</p>
+    </div>
 
-<div class="btn-box">
-    <a href="/#/full-demo">Check the full demo</a>
-</div>
-<div class="doc-box">
-    <a href="/#/home">English</a>
-    <a href="/#/zh-cn/">中文文档</a>
+    <div class="doc-box">
+        <a href="/#/home">English</a>
+        <a href="/#/zh-cn/">中文文档</a>
+    </div>
+    <div class="btn-box">
+        <a href="/#/full-demo">Check the full demo</a>
+    </div>
+
+    <p id="footer">
+    MIT<br/>
+    Copyright © 2017 HcySunYang
+    </p>
 </div>
 
 <style>
@@ -23,8 +32,13 @@
         padding: 0;
         margin: 0;
     }
-    body {
-        padding: 0 10px;
+    .landing {
+        height: 100%;
+    }
+    .our-main {
+        overflow: hidden;
+        position: relative;
+        height: 100%;
     }
     .fork {
         height: 150px;
@@ -49,13 +63,21 @@
         display: block;
         margin: 100px auto 0;
         border-radius: 5px;
+        max-width: 600px;
+        width: 100%;
+    }
+    @media screen and (max-width: 400px) {
+        .logo {
+            margin: 80px auto 0;
+            width: 80%;
+        }
     }
     .title {
         font-size: 64px;
         text-align: center;
         font-weight: bold;
         color: rgb(47, 30, 8);
-        font-family: ff-meta-serif-web-pro, serif;
+        font-family: Arial, 'Times New Roman', 'Microsoft YaHei', SimHei; 
         margin-top: 20px;
     }
     @media screen and (max-width: 400px) {
@@ -64,53 +86,67 @@
         }
     }
     .intr {
-        font-family: ff-meta-serif-web-pro, serif;
+        font-family: Arial, 'Times New Roman', 'Microsoft YaHei', SimHei; 
         color: rgb(47, 30, 8);
         text-align: center;
-        font-size: 18px;
-        margin: 20px auto;
-        max-width: 500px;
+        font-size: 20px;
+        margin: 60px auto 20px;
+        max-width: 800px;
     }
     @media screen and (max-width: 400px) {
         .intr {
             padding: 0 10px;
+            margin: 40px auto 20px;
         }
     }
     .intr a {
+        transition: 0.3s;
         color: rgb(255, 170, 55);
-        text-decoration: underline;
+    }
+    .intr a:hover {
+        text-shadow: 1px 1px 1px rgb(47, 30, 8);
+    }
+    .intr span {
+        color: #000;
     }
     .btn-box {
-        font-size: 28px;
+        font-size: 20px;
+        margin-top: 20px;
         text-align: center;
-        color: rgb(47, 30, 8);
-        font-family: ff-meta-serif-web-pro, serif;
+        font-family: Arial, 'Times New Roman', 'Microsoft YaHei', SimHei; 
     }
     .btn-box a {
-        display: block;
-        margin-top: 20px;
-    }
-    .btn-box a:nth-of-type(1) {
-        font-weight: bold;
-        text-decoration: underline; 
-    }
-    .btn-box a:nth-of-type(2) {
         color: rgb(255, 170, 55);
-        text-decoration: underline; 
+        transition: 0.3s;
+    }
+    .btn-box a:hover {
+        text-shadow: 1px 1px 1px rgb(47, 30, 8);
     }
     .doc-box {
         display: flex;
         justify-content: center;
         font-size: 20px;
-        font-family: ff-meta-serif-web-pro, serif;
+        font-family: Arial, 'Times New Roman', 'Microsoft YaHei', SimHei; 
         margin-top: 20px;
     }
     .doc-box a {
-        font-weight: bold;
+        transition: 0.3s;
         color: rgb(255, 170, 55);
-        text-decoration: underline; 
     }
     .doc-box a:nth-of-type(1) {
         margin-right: 20px;
+    }
+    .doc-box a:hover {
+        text-shadow: 1px 1px 1px rgb(47, 30, 8);
+    }
+    #footer {
+        background-color: #727f80;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        padding: 10px 0;
     }
 </style>
