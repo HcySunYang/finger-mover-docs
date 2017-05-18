@@ -194,7 +194,7 @@ var fm = new Fmover({
 
 * Description:
 
-    Synchronous calling when `touchmove` event is triggered and pass the current location information as a parameter to the callback function.
+    Synchronous calling when `touchmove` event is triggered and pass 3 parameters to the current callback function.
 
 * Example:
 
@@ -203,8 +203,13 @@ var fm = new Fmover({
     el: '.slide-wrap',
     plugins: [
         fmoverSlideX({
-            onTouchMove: function (currentX) {
+            onTouchMove: function (currentX, slideWidth, slideNumber) {
+                // Horizontal coordinates of current position
                 console.log(currentX)
+                // Width of a single slide
+                console.log(slideWidth)
+                // Amount of slides
+                console.log(slideNumber)
             }
         })
     ]
@@ -263,7 +268,7 @@ var fm = new Fmover({
 
 * Description:
 
-    Trigger when inertial scrolling starts and pass the current position coordinates to the callback function.
+    Trigger when inertial scrolling starts and pass 3 parameters to the current callback function.
 
 * Example:
 
@@ -272,9 +277,14 @@ var fm = new Fmover({
     el: '.slide-wrap',
     plugins: [
         fmoverSlideX({
-            onTransMove: function (currentX) {
+            onTransMove: function (currentX, slideWidth, slideNumber) {
+                // Horizontal coordinates of current position
                 console.log(currentX)
-            }
+                // Width of a single slide
+                console.log(slideWidth)
+                // Amount of slides
+                console.log(slideNumber)
+              }
         })
     ]
 })

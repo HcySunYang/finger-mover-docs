@@ -59,3 +59,7 @@
 ###### <a href="https://fmover.hcysun.me/example/demo/fmover-slide-y.html" target="_blank">Vertical slide show</a>
 
 <img src="../asset/qrcode/fmover-slide-y.png" width="200"/>
+
+###### <a href="https://fmover.hcysun.me/example/demo/slide-with-scroll.html" target="_blank">Tab component</a>
+
+<img src="../asset/qrcode/fingerd-scale-demo.png" width="200"/>

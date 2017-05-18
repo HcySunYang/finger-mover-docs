@@ -45,6 +45,8 @@ Plugin `somPlugin` comply with the following rules:
 
     The function called synchronously when `touchmove` event is triggered and the instance of `fmover` will be passed as an argument.
 
+    Note that `return false` can prevent event bubbling in the call back function `move`.
+
 ###### end(fingerd)
 
 * Description:

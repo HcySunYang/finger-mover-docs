@@ -121,6 +121,20 @@ Some library defined the type of pull down refresh: waiting or not after pull do
 
     Specifies the display scroll bar.
 
+###### unidirectional
+
+* Type: `Boolean`
+
+* Default: `false`
+
+* Description:
+
+    Specifies the scroll in one direction. If you set the horizontal direction of the scroll, it's no longer allowed to scroll on the vertical direction. That's convenient to create a tab component by this method with `fmover-slide-x` There is a demo:
+
+    * <a href="https://fmover.hcysun.me/example/demo/slide-with-scroll.html" target="_blank">Tab component</a>
+
+    * <img src="../asset/qrcode/fingerd-scale-demo.png" width="200"/>
+
 ###### bounce
 
 * Type: `Boolean`
