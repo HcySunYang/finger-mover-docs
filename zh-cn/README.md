@@ -79,7 +79,7 @@ fm[0].scrollTo(-300, 1000)
 
 ###### [水平轮播](/zh-cn/plugins/fmover-slide-x)
 
-简介：移动端轻量的、基本的轮播图实现(水平方向)。
+简介：移动端轻量的、基本的轮播图实现(水平方向)。配合[纵向模拟滚动插件](/zh-cn/plugins/simulation-scroll-y)可以轻松实现选项卡组件，可查看demo：[选项卡](https://fmover.hcysun.me/example/demo/slide-with-scroll.html)
 
 ###### [垂直轮播](/zh-cn/plugins/fmover-slide-y)
 
