@@ -1,5 +1,5 @@
 /*!
- * finger-mover.js v0.0.24
+ * finger-mover.js v1.0.2
  * (c) 2017 HcySunYang
  * Released under the MIT License.
  */
@@ -754,12 +754,15 @@ Fmover.prototype._move = function _move (event) {
         var this$1 = this;
 
     var F = this.fingerd.injectEvent(event);
-
+    var returnVal;
     var pluginStorLen = this.pluginsStorage.length;
     for (var i = 0; i < pluginStorLen; i++) {
-        this$1.pluginsStorage[i].move && this$1.pluginsStorage[i].move(F);
+        returnVal = this$1.pluginsStorage[i].move && this$1.pluginsStorage[i].move(F);
     }
 
+    if (typeof returnVal !== 'undefined' && !returnVal) {
+        event.stopPropagation();
+    }
     event.preventDefault();
 };
 /* istanbul ignore next */

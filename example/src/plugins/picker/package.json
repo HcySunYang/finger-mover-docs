@@ -1,16 +1,15 @@
 {
-  "name": "fmover-slide-x",
-  "version": "1.1.0",
-  "description": "finger-mover horizontal slideshow plugin",
-  "main": "dist/fmover-slide-x.js",
+  "name": "picker",
+  "version": "1.0.1",
+  "description": "javascript picker inspired by ios UIPickerView",
+  "main": "dist/picker.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/HcySunYang/finger-mover.git"
   },
   "keywords": [
     "plugin",
-    "slide",
-    "swiper",
+    "picker",
     "finger-mover"
   ],
   "author": "HcySunYang",
@@ -18,5 +17,5 @@
   "bugs": {
     "url": "https://github.com/HcySunYang/finger-mover/issues"
   },
-  "homepage": "https://github.com/HcySunYang/finger-mover/blob/master/src/plugins/fmover-slide-x/README.md"
+  "homepage": "https://github.com/HcySunYang/finger-mover/blob/master/src/plugins/picker/README.md"
 }

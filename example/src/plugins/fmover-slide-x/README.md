@@ -1,3 +1,3 @@
 ## fmover-slide-x
 
-文档查看：[http://hcysun.me](http://hcysun.me)
+Document address: [https://fmover.hcysun.me/#/zh-cn/plugins/fmover-slide-x](https://fmover.hcysun.me/#/zh-cn/plugins/fmover-slide-x)
