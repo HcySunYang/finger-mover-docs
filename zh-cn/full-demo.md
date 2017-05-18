@@ -67,4 +67,4 @@ search: zh-cn
 
 ###### <a href="https://fmover.hcysun.me/example/demo/slide-with-scroll.html" target="_blank">选项卡组件</a>
 
-<img src="../asset/qrcode/fingerd-scale-demo.png" width="200"/>
+<img src="../asset/qrcode/slide-with-scroll.png" width="200"/>
