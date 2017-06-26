@@ -41,6 +41,7 @@ import simulationScrollX from 'simulation-scroll-x'
 
 // 同时使用 simulation-scroll-y 和 simulation-scroll-x 这两个插件，即可实现 2d 滚动
 let fm = new Fmover({
+    // el 可以是元素或元素选择器
     el: '#scroll-box',
     plugins: [
         simulationScrollX(),
