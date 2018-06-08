@@ -80,11 +80,11 @@ moved.start({
             * `{Number} scaleX` X direction scaling, unit `deg`
             * `{Number} scaleY` Y direction scaling, unit `deg`
             * `{Number} scaleZ` Z direction scaling, unit `deg`
-            * `{Number} rotateX` Z direction scaling, unit `deg`
-            * `{Number} rotateY` Z direction scaling, unit `deg`
-            * `{Number} rotateZ` Z direction scaling, unit `deg`
-            * `{Number} skewX` Z direction scaling, unit `deg`
-            * `{Number} skewY` Z direction scaling, unit `deg`
+            * `{Number} rotateX` X direction rotating, unit `deg`
+            * `{Number} rotateY` Y direction rotating, unit `deg`
+            * `{Number} rotateZ` Z direction rotating, unit `deg`
+            * `{Number} skewX` X direction skewing, unit `deg`
+            * `{Number} skewY` Y direction skewing, unit `deg`
         * `{Number} time` Movement time
         * `{Function} inCallBack` The callback function that continues to trigger when the movement is in progress with the current location information as a parameter.
         * `{Function} endCallBack` The callback function is triggered at the end of the movement with the current position information as a parameter.
