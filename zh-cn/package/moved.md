@@ -85,11 +85,11 @@ moved.start({
             * `{Number} scaleX` X 方向缩放，单位 `deg`
             * `{Number} scaleY` Y 方向缩放，单位 `deg`
             * `{Number} scaleZ` Z 方向缩放，单位 `deg`
-            * `{Number} rotateX` Z 方向缩放，单位 `deg`
-            * `{Number} rotateY` Z 方向缩放，单位 `deg`
-            * `{Number} rotateZ` Z 方向缩放，单位 `deg`
-            * `{Number} skewX` Z 方向缩放，单位 `deg`
-            * `{Number} skewY` Z 方向缩放，单位 `deg`
+            * `{Number} rotateX` X 方向旋转，单位 `deg`
+            * `{Number} rotateY` Y 方向旋转 `deg`
+            * `{Number} rotateZ` Z 方向旋转 `deg`
+            * `{Number} skewX` X 方向翻转 `deg`
+            * `{Number} skewY` Y 方向翻转 `deg`
         * `{Number} time` 运动的时间
         * `{Function} inCallBack` 运动进行时持续触发的回调函数，并传递当前位置信息作为参数
         * `{Function} endCallBack` 运动结束时触发的回调函数，并传递当前位置信息作为参数
